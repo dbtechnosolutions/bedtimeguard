@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bedtime Guard Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1b21; --muted: #5b5d72; --line: #e2e1ec; --accent: #4f5bd5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121318; --fg: #e4e1e9; --muted: #c6c5d0; --line: #2f3038; --accent: #bcc2ff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  .summary { border-left: 4px solid var(--accent); padding: 8px 16px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Bedtime Guard Privacy Policy</h1>
+<p class="date">Effective September 29, 2026</p>
+
+<p class="summary"><strong>In short:</strong> Bedtime Guard does not collect, share or sell any
+information. It has no internet access, so nothing it sees or stores ever leaves the phone it's
+installed on.</p>
+
+<p>Bedtime Guard is a parental tool that stops videos and other media from playing past bedtime.
+A parent installs it on a child's phone and sets a bedtime schedule. At bedtime, the app pauses
+whatever is playing, shows a bedtime screen, and keeps media paused until wake-up time. This policy
+explains what the app uses on the phone to do that, and what it keeps.</p>
+
+<h2>No internet access, no data collection</h2>
+<p>The app does not request Android's internet permission, so it cannot send anything anywhere.
+It has no accounts, analytics, advertising or tracking, and it contains no third-party code that
+collects data. Android's app backup is turned off for Bedtime Guard, so its settings aren't copied
+to cloud backups either.</p>
+
+<h2>What the app uses on the phone, and why</h2>
+<table>
+  <tr><th>Permission or access</th><th>What it's used for</th></tr>
+  <tr><td>Notification access</td>
+      <td>Lets the app see which apps are playing media and tell them to pause or stop at bedtime.
+      The app also reads notifications from Bark apps only (not the Bark parent app) and writes
+      their title and text to the on-phone diagnostic log, to learn whether Bark announces bedtime.
+      Other apps' notifications are not read or stored.</td></tr>
+  <tr><td>Installed apps</td>
+      <td>Lists video apps so the parent can turn off picture-in-picture, and lists apps for the
+      "Allowed at bedtime" setting. App names and icons are shown on screen only.</td></tr>
+  <tr><td>Display over other apps</td>
+      <td>Opens the bedtime screen on top of a video that's playing.</td></tr>
+  <tr><td>Alarms &amp; reminders</td>
+      <td>Starts bedtime at the scheduled time.</td></tr>
+  <tr><td>Notifications and full-screen alerts</td>
+      <td>Shows the bedtime alert, including when the phone is locked.</td></tr>
+  <tr><td>Start at boot</td>
+      <td>Sets up the next bedtime again after the phone restarts.</td></tr>
+</table>
+
+<h2>What the app stores on the phone</h2>
+<ul>
+  <li><strong>Settings:</strong> the bedtime schedule, the list of apps allowed at bedtime, and a
+      list of apps that have played media on the phone (used to suggest apps for that list).</li>
+  <li><strong>Logs:</strong> a diagnostic log of each bedtime (times, app names, what was paused)
+      and a parent log of unlocks, wrong codes and setting changes.</li>
+  <li><strong>Parent lock:</strong> if the parent turns it on, a secret shared with the parent's
+      authenticator app is kept in the Android Keystore, where it can't be read back out, and the
+      recovery code is kept only as a one-way hash.</li>
+</ul>
+<p>All of this stays in the app's private storage on the phone.</p>
+
+<h2>Children</h2>
+<p>Bedtime Guard is used by parents on their children's phones, and parents control its settings.
+The app does not collect personal information from children or from anyone else, and it does not
+show ads or offer purchases.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Stored settings and logs remain on the phone until the app's data is cleared or the app is
+uninstalled. Uninstalling Bedtime Guard deletes everything it stored. The diagnostic log can also
+be cleared from within the app. The parent log can't be cleared from within the app, so a parent
+can see if settings were changed.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the app changes how it handles information, this page will be updated and the effective date
+above will change.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:dbtechnosolutions@gmail.com">dbtechnosolutions@gmail.com</a></p>
+</main>
+</body>
+</html>
